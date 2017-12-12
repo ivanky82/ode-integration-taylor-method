@@ -1,2 +1,4 @@
 # ode-integration-taylor-method
-Created a code to solve ordinary differential equations (ODEs) numerically us using Taylor method. We will use automatic differentiation method to find derivative of taylor polinomials.
+There are two files in this repo that are needed. 
+First is the library file mytaylor.py, which contains all methods needed to integrate an ODE.
+Second is the main file, in which we need to type our ODE. 
