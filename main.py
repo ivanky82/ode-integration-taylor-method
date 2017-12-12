@@ -3,8 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math as m
 
+#define your function here
 def fun(y):
-    z = subtractpoli(y[0],multiplypoli(y[0],y[0]))
+    z = subtractpoli(y[0],multiplypoli(y[0],y[0])) #dy/dt = y-y^2
     return [z]
 
 y_init = [0.5]
